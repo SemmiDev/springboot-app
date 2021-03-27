@@ -1,0 +1,20 @@
+GET http://localhost:8080/api/v1/student
+Accepts: application/json
+
+###
+POST http://localhost:8080/api/v1/student
+Content-Type: application/json
+
+{
+  "name": "sam",
+  "email": "sam2@mail.com",
+  "dob": "2001-10-20"
+}
+
+###
+DELETE http://localhost:8080/api/v1/student/1
+
+###
+PUT http://localhost:8080/api/v1/student/1?name=sammidev&email=sammidev4@mail.com
+Content-Type: application/json
+
